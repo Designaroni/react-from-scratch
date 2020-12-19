@@ -13,11 +13,18 @@ This package is published globally to @designaroni/react-from-scratch
 **OR**
 
 ### this app can be installed globally as a `create-*` starter kit
-  - [**see more ->**](https://classic.yarnpkg.com/en/docs/cli/create/)
-  - [**see more ->**](https://stackoverflow.com/questions/44144329/how-do-you-use-yarn-create-pkg-name)
+  - [**see more on yarnpkg.com: yarn create ->**](https://classic.yarnpkg.com/en/docs/cli/create/)
+  - [**see more on stackoverflow: how-do-you-use-yarn-create-pkg-name ->**](https://stackoverflow.com/questions/44144329/how-do-you-use-yarn-create-pkg-name)
 
 ### Creating a starter kit while in development
   0. Download project from the git repo on Github `$ git clone https://github.com/Designaroni/react-from-scratch.git`
   1. Add starter kit globally with yarn: `$ yarn global add file:/path/to/react-from-scratch`
-  2. Test installing react-from-scratch starter kit `$ yarn create react-from-scratch`
-  3. Test starting development server: `$ yarn create react-from-scratch start`
+  
+  **WARNING! step 1 fails to create binaries - react-from-scratch project is missing the `bin` field of the package.json**
+  
+  ---
+  Future steps once package.json bin field is added:
+  
+  2. Test installing react-from-scratch starter kit using `$ yarn create` syntax: `$ yarn create react-from-scratch my-app`
+  3. Test installing react-from-scratch starter kit using `$ create-*` syntax: `$ create-react-from-scratch my-app`
+  4. Test starting development server: `$ yarn create react-from-scratch start`
