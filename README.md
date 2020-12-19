@@ -10,7 +10,7 @@ This package is published globally to @designaroni/react-from-scratch
   0. Download project from the git repo on Github `$ git clone https://github.com/Designaroni/react-from-scratch.git`
   1. Customize and modify as you see fit, repeat as neccessary for new projects.
 
-**OR**
+> :warning: **WARNING! Future versions of this project will support the following:**
 
 ### this app can be installed globally as a `create-*` starter kit
   - [**see more on yarnpkg.com: yarn create ->**](https://classic.yarnpkg.com/en/docs/cli/create/)
@@ -20,8 +20,8 @@ This package is published globally to @designaroni/react-from-scratch
   0. Download project from the git repo on Github `$ git clone https://github.com/Designaroni/react-from-scratch.git`
   1. Add starter kit globally with yarn: `$ yarn global add file:/path/to/react-from-scratch`
   
-  **WARNING! step 1 fails to create binaries - react-from-scratch project is missing the `bin` field of the package.json**
-  
+> :warning: **WARNING! step 1 fails to create binaries - react-from-scratch project is missing the `bin` field of the package.json****:
+
   ---
   Future steps once package.json bin field is added:
   
