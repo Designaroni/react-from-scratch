@@ -20,7 +20,8 @@ This package is published globally to @designaroni/react-from-scratch
   0. Download project from the git repo on Github `$ git clone https://github.com/Designaroni/react-from-scratch.git`
   1. Add starter kit globally with yarn: `$ yarn global add file:/path/to/react-from-scratch`
   
-> :warning: **WARNING! step 1 fails to create binaries - react-from-scratch project is missing the `bin` field of the package.json****:
+> :warning: **WARNING! step 1 fails to create binaries - react-from-scratch project is missing the `bin` field of the package.json**
+> [**see more on npmjs.com: #bin ->**](https://docs.npmjs.com/cli/v6/configuring-npm/package-json#bin)
 
   ---
   Future steps once package.json bin field is added:
